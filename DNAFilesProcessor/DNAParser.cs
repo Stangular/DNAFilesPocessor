@@ -11,7 +11,6 @@ using System.Windows.Forms;
 
 namespace DNAFilesProcessor
 {
-
     public partial class DNAParser : Form
     {
         bool _familyMemberCountSort = false;
