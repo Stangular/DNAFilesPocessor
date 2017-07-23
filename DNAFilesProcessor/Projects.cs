@@ -486,7 +486,6 @@ namespace DNAFilesProcessor
             {
                 System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex("\"");
                 string res = regex.Replace(s, "");
-
                 var line = res.Split(new string[] { "," }, StringSplitOptions.None);
                 _segments.AddNewMemberSegment(memberID, line[0]);
                 _segments.AddSegment(line);
